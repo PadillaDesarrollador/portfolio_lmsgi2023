@@ -4,7 +4,9 @@ import './App.css';
 import { NavBar } from './commons/NavBar';
 import { AboutMePage } from './pages/About Me/AboutMePage';
 import { ContactPage } from './pages/Contact/ContactPage';
+import { Footer } from './pages/Footer/Footer';
 import { WorksPage } from './pages/Works/WorksPage';
+
 
 function App() {
   return (
@@ -19,6 +21,9 @@ function App() {
         <Route path='contact' element={<ContactPage />}></Route>
       </Routes>
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
 
   );

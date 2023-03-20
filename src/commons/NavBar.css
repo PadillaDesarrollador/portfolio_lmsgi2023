@@ -5,9 +5,7 @@
     height: 80px;
     width: 40%;
 }
-.bar a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
+.willy{
+    height: 30px;
+    width: 50px;
 }

@@ -2,3 +2,42 @@
     display: flex;
     justify-content: flex-start;
 }
+.card{
+    width: 20%;
+}
+.foto{
+    background-color: red;
+    display: flex;
+    justify-content: flex-start;
+}
+h3{
+    margin: 10px;
+    padding: 10px;
+}
+p{
+    margin: 5px;
+    padding: 5px;
+}
+.me{
+    width: 70%;
+    margin-top: 50px;
+
+}
+.tabla{
+    width: 50%;
+    margin-top: 40px;
+}
+.logo{
+    width: 60px;
+}
+.nombre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mylastyears{
+    width: 70%;
+}
+.hola{
+    margin-top: 30px;
+}

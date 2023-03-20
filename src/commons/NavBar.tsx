@@ -1,16 +1,16 @@
 import React from 'react'
-import { Button, Spinner } from 'react-bootstrap'
+import { Button, } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import './NavBar.css'
-
+import { AiFillCrown } from "react-icons/ai";
 
 export const NavBar = () => {
   return (
     <nav className='bar'>
-        <Spinner animation="border" variant='success'/>
-        <Link to='aboutme'>About Me</Link>
-        <Link to='works'>Works</Link>
-        <Link to='contact'>Contact</Link>
+        <a  href=""><AiFillCrown className='willy'/></a>
+        <Button href='aboutme'>About Me</Button>
+        <Button href='works'>Works</Button>
+        <Button href='contact'>Contact</Button>
     </nav>
   )
 }
