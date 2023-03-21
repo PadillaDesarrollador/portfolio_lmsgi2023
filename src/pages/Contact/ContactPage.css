@@ -1,0 +1,19 @@
+.intro{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    text-decoration:underline;
+}
+.links{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    width: 250px;
+}
+.icon{
+    height: 30px;
+    width: 50px;
+}
+a{
+    text-decoration: none;
+}
