@@ -1,0 +1,28 @@
+.git{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.yo{
+    height: 200px;
+    display: flex;
+    width: 80%;
+    margin-top: 15px;
+}
+.nombre{
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+}
+.imagen img{
+    height: 160px;
+    width: 140px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+figure{
+   margin-bottom: 15px;
+}
+.imagen{
+    width: 50%;
+}

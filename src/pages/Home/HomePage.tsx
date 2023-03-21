@@ -1,5 +1,7 @@
 import React from 'react'
-import { Alert } from 'react-bootstrap'
+import { Alert, Button } from 'react-bootstrap'
+import './HomePage.css'
+import pablo from '../../media/pablo.jpg'
 
 
 
@@ -20,6 +22,23 @@ export const HomePage = () => {
       </p>
     </Alert>
     </nav>
+    <nav>
+    <Button className='git' variant="primary" size="lg" href='https://github.com/PadillaDesarrollador/portfolio_lmsgi2023/tree/master'>
+        Click here to see the code of this page
+      </Button>
+    </nav>
+    <div className='yo'>
+    <nav className='nombre'>
+      <h3>Pablo Padilla</h3>
+      <h4>( Developer / DevOps )</h4>
+    </nav>
+    <nav className='imagen'>
+      <figure>
+        <img src={pablo}/>
+      </figure>
+    </nav>
+
+    </div>
     
     
     

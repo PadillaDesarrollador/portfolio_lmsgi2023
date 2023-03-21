@@ -37,7 +37,7 @@ export const WorksPage = () => {
       <Card.Body>
         <Card.Title>Hidrodiseño</Card.Title>
         <Card.Text>
-          This is one of my last projects, is a copy of a web page. Made with React
+          This is one of my last projects, is a copy of a web page, not finished yet. Made with React
         </Card.Text>
       </Card.Body>
     </Card>

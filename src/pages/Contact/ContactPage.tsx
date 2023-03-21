@@ -12,6 +12,8 @@ export const ContactPage = () => {
       <nav><a href="https://twitter.com/pablopadillaro"><BsTwitter  className='icon'/></a><a href="">@pablopadillaro</a></nav>
       <nav><a href="https://www.instagram.com/_pablo.padilla/"><BsInstagram  className='icon'/></a><a href="">@_pablo.padilla</a></nav>
       <nav><a href="https://github.com/PadillaDesarrollador"><BsGithub  className='icon'/></a><a href="">@PadillaDesarrolador</a></nav>
+      <nav className='gmail'>
+      </nav>
     </div>
     </>
   )
