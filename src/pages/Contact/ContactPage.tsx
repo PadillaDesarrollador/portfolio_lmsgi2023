@@ -7,14 +7,15 @@ export const ContactPage = () => {
   return (
     <>
     <h1 className='intro'>On the Web</h1>
-    <div className='links'>
-      <nav><a href="https://www.linkedin.com/in/pablo-padilla-rojas-351240257/"><BsLinkedin className='icon' /></a><a href="">@Pablo Padilla Rojas</a></nav>
-      <nav><a href="https://twitter.com/pablopadillaro"><BsTwitter  className='icon'/></a><a href="">@pablopadillaro</a></nav>
-      <nav><a href="https://www.instagram.com/_pablo.padilla/"><BsInstagram  className='icon'/></a><a href="">@_pablo.padilla</a></nav>
-      <nav><a href="https://github.com/PadillaDesarrollador"><BsGithub  className='icon'/></a><a href="">@PadillaDesarrolador</a></nav>
-      <nav className='gmail'>
+    <nav className='links'>
+      <a href="https://www.linkedin.com/in/pablo-padilla-rojas-351240257/"><BsLinkedin className='icon' />@Pablo Padilla Rojas</a>
+      <a href="https://twitter.com/pablopadillaro"><BsTwitter  className='icon'/>@pablopadillaro</a>
+      <a href="https://www.instagram.com/_pablo.padilla/"><BsInstagram  className='icon'/>@_pablo.padilla</a>
+      <a href="https://github.com/PadillaDesarrollador"><BsGithub  className='icon'/>@PadillaDesarrolador</a>
       </nav>
-    </div>
+      <nav className='gmail'>
+        <h5>I you want, you can send me an email <Button> pablopadillarojas03@gmail.com</Button></h5>
+      </nav>
     </>
   )
 }

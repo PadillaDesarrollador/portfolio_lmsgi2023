@@ -28,7 +28,7 @@ export const AboutMePage = () => {
         focused on web programming, although I would like to investigate cybersecurity, machine learning and other programming languages
         </p>
         </Alert>
-        <h3>Tech Stack</h3>
+        <h3> - Tech Stack</h3>
         <p>Those are technologies I have used and those I want to learn:</p>
     </nav>
     <nav className='tabla'>
@@ -54,7 +54,7 @@ export const AboutMePage = () => {
     </Table>
     </nav>
     <nav className='mylastyears'>
-      <h3>My last years</h3>
+      <h3> -  My last years</h3>
       <p>
         - Between 2020 and 2021 I studied the social bachelor at <a href="https://iescuravalera.es/">I.E.S Cura Valera</a>
       </p>
